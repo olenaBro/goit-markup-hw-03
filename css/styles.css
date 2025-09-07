@@ -189,7 +189,7 @@ img {
 
 .benef-item {
     margin: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .benef-text {
     font-weight: 400;
@@ -256,6 +256,11 @@ img {
 
 .portfolio { 
     padding: 120px 0;
+}
+
+.container-portfolio{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
