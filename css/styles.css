@@ -32,14 +32,14 @@ img {
 }
 
 .container {
-    max-widht: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 /*header*/
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container { 
@@ -186,7 +186,7 @@ img {
 
 .benef-item{
     margin: 24px;
-    width: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .benef-text {
     margin-top: 8px;
@@ -327,5 +327,5 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    text-align: center;
+    text-align: left;
 }
