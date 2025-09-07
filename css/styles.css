@@ -85,7 +85,6 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-    display: block;
 }
 
 .address {
@@ -98,10 +97,12 @@ img {
     align-items: center;
     gap: 40px;
 }
+.nav-link, .address-link {
+    display: inline-block;
+}
 
 .address-link {
     padding: 24px 0;
-    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -190,7 +191,7 @@ img {
 }
 
 .benef-item {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 3);
 }
 .benef-text {
     font-weight: 400;
@@ -257,13 +258,11 @@ img {
 
 .portfolio { 
     padding: 120px 0;
-    width: calc((100% - 48px) / 3);
 }
 
 .container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
