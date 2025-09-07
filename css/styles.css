@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*body*/
 body{
     font-family: "Roboto", sans-serif;
@@ -7,14 +13,44 @@ body{
 
 ul,ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
 }
 
 a{
     text-decoration: none;
 }
 
-/*header*/
+.container {
+    max-weight: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+/*header*/
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header-container { 
+    display: flex;
+    align-items: center;
+} 
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -23,6 +59,8 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .nav-logo .logo-part {
@@ -38,13 +76,24 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .address {
     font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .address-link {
+    padding: 24px 0;
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -60,6 +109,7 @@ a{
 /*main-section*/
 .section{
    background: #2e2f42;
+   text-align: center;
 }
 
 .section-title {
@@ -69,6 +119,7 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding: 188px 472px;
 }
 
 .section-btn {
@@ -79,8 +130,10 @@ a{
     letter-spacing: 0.04em;
     color: #fff; 
     background-color: #4D5AE5;
-    cursor: pointer
-} 
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
 
 .section-btn:hover,
 .section-btn:focus{
@@ -97,6 +150,17 @@ a{
     clip-path: inset(100%);
 }
 
+.conteiner-benefits{
+    width: calc((100%-72)/4);
+    align-items: center;
+}
+
+.benef-list{
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
 .benef-title {
     font-weight: 500;
     font-size: 20px;
@@ -104,7 +168,13 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+.benef-item{
+    margin: 24px;
+}
 .benef-text {
+    margin-top: 8px;
+    gap: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -118,6 +188,8 @@ a{
     background: #f4f4fd;
 }
 
+
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -128,8 +200,14 @@ a{
     color: #2e2f42;    
 }
 
+.team-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .team-item {
     background-color: #ffffff;
+    margin: 24px;
 }
 .team-img {
 }
