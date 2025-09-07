@@ -188,7 +188,6 @@ img {
 }
 
 .benef-item {
-    margin: 24px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .benef-text {
