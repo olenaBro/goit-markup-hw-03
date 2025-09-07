@@ -156,6 +156,7 @@ img {
 
 .benefits{
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -288,6 +289,11 @@ img {
     border: 1px solid #e7e9fc;      
     border-top: none;
 }  
+
+.container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+}
 
 .portfolio-name {
     font-weight: 500;
