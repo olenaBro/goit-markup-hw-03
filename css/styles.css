@@ -162,7 +162,7 @@ img {
     clip-path: inset(100%);
 }
 
-.container-benefits{
+.container{
     align-items: center;
     padding: 120px 0;
 }
@@ -199,9 +199,6 @@ img {
 
 .team {
     background: #f4f4fd;
-}
-
-.container-team{
     padding: 32px 0;
 }
 
