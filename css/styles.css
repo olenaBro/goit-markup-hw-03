@@ -76,6 +76,7 @@ img {
 }
 .footer-logo .logo-part {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .nav-link{   
