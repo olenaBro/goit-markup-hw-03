@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /*body*/
 body{
@@ -36,7 +32,6 @@ img {
 /*header*/
 .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 15px;
 }
 .container {
    padding: 0 15px;
