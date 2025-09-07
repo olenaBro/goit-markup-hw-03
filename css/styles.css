@@ -31,15 +31,16 @@ img {
     height: auto;
 }
 
-.container {
-   width: 1158px;
-   padding: 0 15px;
-   margin: 0 auto;
-}
+
 
 /*header*/
 .header {
     border-bottom: 1px solid #e7e9fc;
+}
+.container {
+   width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
 }
  
    /* display: flex;
