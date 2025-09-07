@@ -154,6 +154,10 @@ img {
 
 /*benefits*/
 
+.benefits{
+    padding: 120px 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -165,10 +169,6 @@ img {
     border: 0;
 }
 
-.container-benefits{
-    align-items: center;
-    padding: 120px 0;
-}
 
 .benef-list{
     display: flex;
@@ -189,8 +189,6 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 .benef-text {
-    margin-top: 8px;
-    gap: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -217,20 +215,19 @@ img {
 }
 
 .team-list{
-    align-items: center;
     display: flex;
     gap: 24px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .team-item {
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
     overflow: hidden;
-    padding: 32px 0;
-    text-align: center;
+    flex-basis: calc((100% - 72px) / 4);
 }
-.team-img {
+.team-card {
+  padding: 32px 0;
 }
 
 .team-names {
